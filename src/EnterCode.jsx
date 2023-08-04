@@ -27,7 +27,7 @@ function EnterCode() {
 <input required="required" value={inp4} onChange={(e) => {setInp4(e.target.value)}}  maxlength="1" type="number" className="otp-input" id="otp-input4" /> 
 
 </div>
-<button className="verifyButton" type="submit">Enter</button>
+<button className="verifyButton" type="submit">Verify</button>
   {/* <button className="exitBtn">×</button> */}
   {/* <p className="resendNote">Didn't receive the code? <button className="resendBtn">Resend Code</button></p> */}
   
